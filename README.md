@@ -6,4 +6,4 @@ SRGAN (https://arxiv.org/abs/1609.04802)
 
 Some code in this repository is modified from the repository "Collection of Super-Resolution models via PyTorch" (https://github.com/togheppi/pytorch-super-resolution-model-collection)
 
-A tutorial of the code named Tutorial.ipnb is included
+A tutorial of the code named Tutorial.ipynb is included
