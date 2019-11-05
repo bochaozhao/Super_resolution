@@ -1,6 +1,6 @@
 # Enhancing resolution of micro-CT images of reservoir rocks using super resolution
 
-Contributors: Bochao Zhao, Nishank Saxena, Ronny Hofmann, Chaitanya Pradhan, and Amie Hows
+Contributors: Bochao Zhao (bchao.zhao@gmail.com), Nishank Saxena (Nishank.Saxena@shell.com), Ronny Hofmann (Ronny.Hofmann@shell.com), Chaitanya Pradhan (Chaitanya.Pradhan@shell.com), and Amie Hows (amie.hows@shell.com)
 
 Implementation of super resolution algorithm SRGAN and EDSR for microCT image super resolution.
 The architectures are described in the following papers:
