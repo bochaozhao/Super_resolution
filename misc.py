@@ -1,4 +1,3 @@
-import laplacian_filter
 import numpy as np
 import matplotlib.pyplot as plt
 import torch
@@ -39,15 +38,6 @@ class FeatureExtractor(torch.nn.Module):
         return self.features(x)
 
 
-def laplacian_operate(img,kernel_size=3):
-    img = Image.fromarray(img)
-    totensor_transform = Compose([ToTensor()])
-    img = totensor_transform(img)
-    img=torch.unsqueeze(img,0)
-    new_img=laplacian_filter.laplacian(img,kernel_size)
-    new_img=torch.squeeze(new_img,0)
-    utils.display_from_tensor(new_img)
-    return new_img
 
 
 def vgg_filter(img_path,layer=8):
